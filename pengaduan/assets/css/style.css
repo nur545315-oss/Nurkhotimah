@@ -1,0 +1,165 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+    background: linear-gradient(135deg, #FAF3E0, #F5E6D3);
+    font-family: 'Segoe UI', sans-serif;
+    color: #4B2E2B;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+    background: linear-gradient(135deg, #6F4E37, #4B2E2B) !important;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+/* =========================
+   HERO
+========================= */
+.hero {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #F5E6D3, #FAF3E0);
+    border-radius: 20px;
+}
+
+/* =========================
+   CARD
+========================= */
+.card {
+    background: #FDF6EC; /* cream */
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* =========================
+   FEATURE BOX
+========================= */
+.feature-box {
+    background: #FDF6EC;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   ICON
+========================= */
+.feature-icon {
+    font-size: 40px;
+    background: #EED5C4;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* =========================
+   INPUT
+========================= */
+.form-control.input-coffee {
+    background-color: #FDF6EC !important;
+    border: 1px solid #d6c1a3 !important;
+    border-radius: 15px !important;
+    padding: 10px;
+}
+
+.form-control.input-coffee:focus {
+    border-color: #6F4E37 !important;
+    box-shadow: 0 0 5px rgba(111, 78, 55, 0.3) !important;
+}
+
+/* =========================
+   BUTTON (ANTI HIJAU)
+========================= */
+.btn.btn-coffee {
+    background: linear-gradient(135deg, #6F4E37, #8B5E3C) !important;
+    color: #6F4E37 !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 10px !important;
+}
+
+.btn.btn-coffee:hover {
+    background: #4B2E2B !important;
+}
+
+/* =========================
+   PROGRESS BAR
+========================= */
+.progress {
+    background-color: #EED5C4;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    background: linear-gradient(135deg, #6F4E37, #8B5E3C);
+}
+
+/* =========================
+   TABLE
+========================= */
+.table {
+    background: #FDF6EC;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* =========================
+   ALERT
+========================= */
+.alert {
+    border-radius: 15px;
+}
+
+/* =========================
+   TEXT
+========================= */
+.text-muted {
+    color: #7a6a5a !important;
+}
+
+/* =========================
+   CTA BOX
+========================= */
+.cta-box {
+    background: #FDF6EC;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   FORM CONTAINER (OPTIONAL)
+========================= */
+.form-container {
+    background: #FDF6EC;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/* =========================
+   ANIMATION (BIAR HIDUP)
+========================= */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.hero, .card, .feature-box {
+    animation: fadeIn 0.8s ease-in;
+}
